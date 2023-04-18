@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(portfolio-home-bg.jpg);
+    background-size: cover;
+    background-size: 800px 1000px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.navbar nav{
+    min-height: 6vh;
+    margin: auto;
+}
+
+.navbar nav a{
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    margin: 10px;
+    color: green;
+    font-size: 20px;
+}
+ .navbar nav a:hover{
+    color: greenyellow;
+ }
+
+.title{
+    margin: auto;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 30px;
+}
+
+.main{
+    display: grid;
+    height: 90vh;
+    justify-content: center;
+}
+
+.workContainer{
+    width: 80vw;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(78, 133, 46, 0.466);
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.work img{
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+}
+
+.work span{
+    margin: 10px;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
