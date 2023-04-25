@@ -63,7 +63,7 @@ function rearrange(type){
         }
     }else if(type === 'tdd'){
         let testDrivenCodes = document.getElementsByClassName("tdd");
-        for(var tdd=0; tdd<programmes.length; tdd++){
+        for(var tdd=0; tdd<testDrivenCodes.length; tdd++){
             testDrivenCodes[tdd].style.display = 'flex';
         }
     }
