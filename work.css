@@ -54,10 +54,12 @@ body{
 }
 
 .workContainer{
-    width: 80vw;
+    width: 100vw;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .work{
@@ -68,7 +70,7 @@ body{
     background-color: rgba(78, 133, 46, 0.466);
     border: none;
     border-radius: 20px;
-    margin: 10px;
+    margin: 10px 5px;
     justify-content: center;
     align-items: center;
 }

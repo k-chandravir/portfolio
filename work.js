@@ -61,6 +61,11 @@ function rearrange(type){
         for(var program=0; program<programmes.length; program++){
             programmes[program].style.display = 'flex';
         }
+    }else if(type === 'tdd'){
+        let testDrivenCodes = document.getElementsByClassName("tdd");
+        for(var tdd=0; tdd<programmes.length; tdd++){
+            testDrivenCodes[tdd].style.display = 'flex';
+        }
     }
 }
 
